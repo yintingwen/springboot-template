@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://8.142.135.242:3306/ok_car?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      username: ok_car
+      password: ZC2zTt8ChTiz4zEz
+      max-wait: 3000
+      initial-size: 10
+      max-active: 1000
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
